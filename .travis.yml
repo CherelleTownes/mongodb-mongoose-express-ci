@@ -13,5 +13,5 @@ deploy:
   app: projects-app-1001
   on:
     repo: CherelleTownes/mongodb-mongoose-express-ci
-
-    # A
+run:
+    - "node seed/userProjects.js"
